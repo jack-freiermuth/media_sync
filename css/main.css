@@ -1,0 +1,38 @@
+/* make sidebar nav vertical */ 
+/*@media (min-width: 768px) {
+	.sidebar-nav .navbar .navbar-collapse {
+		padding: 0;
+		max-height: none;
+	}
+	.sidebar-nav .navbar ul {
+		float: none;
+		display: block;
+	}
+	.sidebar-nav .navbar li {
+		float: none;
+		display: block;
+	}
+	.sidebar-nav .navbar li a {
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+}*/
+
+.compare-cell {
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+}
+
+.left-cell {
+
+}
+
+.compare-cell-wrapper {
+	/*margin-bottom: 20px;*/
+}
+
+.vertical-buffer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
