@@ -6,7 +6,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
 <div class="container">
 	<div class="row">
 		<div class="col-sm-3">
@@ -20,7 +20,7 @@
 						<span class="input-group-btn">
 							<button class="btn btn-secondary directory_path_button" type="button">Go!</button>
 						</span>
-						<input id="directory_path" type="text" class="form-control" placeholder="File Path ex: I:\Movies\">
+						<input id="directory_path" type="text" class="form-control" placeholder="File Path ex: I:\Movies\" value="I:\Movies\">
 					</div>
 				</div>
 			</div><!-- End File Path Input -->
@@ -38,6 +38,7 @@
 
 
 <script type="text/javascript">
+
 $('.directory_path_button').on('click', function() {
     $.ajax({
         url: 'movie_script.php',

@@ -36,3 +36,45 @@
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+.checkbox-movie-name {
+	padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 48px;
+}
+
+.fancy_checkbox {
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.fancy_checkbox .checked{
+	background-color: gray;
+}
+
+
+
+/*Checkbox*/
+.form-group input[type="checkbox"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span {
+    width: 20px;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;   
+}
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;   
+}
+
